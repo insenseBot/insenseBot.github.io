@@ -1,0 +1,86 @@
+.fondo-footer{
+    background: rgb(5, 56, 5);
+    padding: 20px 0px;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer{
+    width: 280px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer h3{
+    color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.auspiciadores li{
+    list-style-image: url(../img/buena.png);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.social{
+    text-align: center;
+}
+
+.ico{
+    font-size: 18px;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+}
+
+.social{
+    margin-top: 30px;
+}
+
+.fondo-pies{
+    background: black;
+    padding: 20px 0px;
+}
+
+.pies{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pie{
+    text-align: center;
+    color: white;
+}
+
+
+/*Mediaqueris para TABLETS*/
+
+@media only screen and (max-width:980px){
+    .footer, .pies{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+/*Mediaqueris para CELULAR*/
+@media only screen and (max-width:480px){
+    .footer, .pies{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    footer, .pie{
+        width: 100%;
+        text-align: center;
+    }
+}
